@@ -1,0 +1,15 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+     char str[100];
+    scanf("%[^\n]%*c", str);
+    char *token = strtok(str, " ");
+    printf("May I know how to learn %s!!!...", token);
+    return 0;
+}
