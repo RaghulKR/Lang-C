@@ -1,0 +1,15 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+int main() {
+    char input[5];
+    scanf("%s", input);
+    int firstDigit = input[0] - '0';
+    int lastDigit = input[strlen(input) - 1] - '0';
+    printf("%d\n", firstDigit + lastDigit);
+    return 0;
+}
