@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int a, b;
+
+    // Read input from STDIN
+    scanf("%d", &a);
+    scanf("%d", &b);
+
+    // Print values before swapping
+    printf("The First value before Swapping:%d\n", a);
+    printf("The Second value before Swapping:%d\n", b);
+
+    // Swap values without using a third variable
+    a = a + b;
+    b = a - b;
+    a = a - b;
+
+    // Print values after swapping
+    printf("The First value after Swapping:%d\n", a);
+    printf("The Second value after Swapping:%d\n", b);
+
+    return 0;
+}
