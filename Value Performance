@@ -1,0 +1,21 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+
+int main() {
+    int integer_number;
+    float float_number;
+
+    scanf("%d", &integer_number);
+    scanf("%f", &float_number);
+
+    printf("%d\n", integer_number);
+    printf("%.2f\n", float_number);
+
+    return 0;
+}
